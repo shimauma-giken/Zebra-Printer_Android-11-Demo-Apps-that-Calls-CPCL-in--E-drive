@@ -2,12 +2,8 @@
 
 1. CPCLスクリプト作成する。
 
-<<<<<<< HEAD
-        ファイル名の例
-        AAAVS01.PRN
-=======
+
         例、demo02.PRN
->>>>>>> 476cf543a202b05cc0adfd4e7d656314993e24e5
 
 1. 上記ファイルをプリンタの内蔵ドライブに保存する。
 
@@ -15,6 +11,7 @@
 
         ! UF demo02.PRN [Enter]
 
+</br>
 
 ### Android側の準備
 
@@ -23,14 +20,16 @@
 
 1. MainActivityの変数を変更する。(23-24行)
 
-        ```java
-        // デモファイル名
-        String cpclFile = "demo02.prn";
-        // Bluetooth ClassicのMACアドレス
-        String bluetoothMac = "04:7F:0E:7E:EE:9D";
-        ```
+```java
+// デモファイル名
+String cpclFile = "demo02.prn";
+// Bluetooth ClassicのMACアドレス
+String bluetoothMac = "04:7F:0E:7E:EE:9D";
+``` 
 
-1. Appをビルドし、Android端末にインストールする。
+3. Appをビルドし、Android端末にインストールする。
+
+</br>
 
 
 ### デモ方法
