@@ -2,11 +2,12 @@
 
 1. CPCLスクリプト作成する。
 
-   例、demo02.PRN
+        例、demo02.PRN
+
 2. 上記ファイルをプリンタの内蔵ドライブに保存する。
 3. UFコマンドでファイルが正常に出力されるか念のために確認する。
 
-   ! UF demo02.PRN [Enter]
+        ! UF demo02.PRN [Enter]
 
 </br>
 
